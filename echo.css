@@ -33,7 +33,7 @@ body { padding: 0; margin: 0; box-sizing: border-box; font-family: 'bdy'; font-s
 
 .hero { height: calc(100vh - 160px); padding: 80px 0px; display: flex; flex-direction: column; justify-content: space-between; }
 
-p { color: #677078; }
+p { color: #677078; line-height: auto; }
 
 a { text-decoration: none; color: inherit; transition: opacity ease-in-out 0.1s; }
 
@@ -53,7 +53,7 @@ h2 { font-family: hd; font-style: normal; font-weight: bold; font-size: 24px; li
 
 .grid-image img { max-width: 100%; vertical-align: top; }
 
-.grid-item p { font-size: 14px; margin: 0px; }
+.grid-item p { font-size: 14px; margin-top: 4px; }
 
 .footer, .intro { margin: 240px 0px; display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 40px; vertical-align: top; }
 
