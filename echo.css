@@ -100,9 +100,9 @@ h1 { font-size: 48px; }
 
 .container { padding: 0px 24px; }
 
-.grid, .footer, .intro  { grid-template-columns: repeat(1, 1fr); }
+.grid, .footer, .intro  { grid-template-columns: repeat(1, 1fr); grid-row-gap: 40px; }
 
-.grid { margin-top: 80px; }
+.grid { margin-top: 80px; grid-row-gap: 40px; }
 
 .footer { grid-gap: 24px; margin-top: 240px; }
 
@@ -112,11 +112,13 @@ h1 { font-size: 48px; }
 
 .hero { padding: 32px 0px; }
 
+.screen-single { margin-top: 40px; }
+
 .screen-double { display: block; }
 
 .screen-double div { width: 100%; }
 
-.screen-double div:nth-child(2) { margin-left: 0px; margin-top: 80px; }
+.screen-double div:nth-child(2) { margin-left: 0px; margin-top: 40px; }
 
 header { margin-top: 32px; }
 
