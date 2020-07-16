@@ -33,7 +33,7 @@ body { padding: 0; margin: 0; box-sizing: border-box; font-family: 'bdy'; font-s
 
 .hero { height: calc(100vh - 160px); padding: 80px 0px; display: flex; flex-direction: column; justify-content: space-between; }
 
-p { color: #677078; line-height: auto; }
+p { color: #677078; line-height: 1.5em; margin-bottom: 2em; }
 
 a { text-decoration: none; color: inherit; transition: opacity ease-in-out 0.1s; }
 
