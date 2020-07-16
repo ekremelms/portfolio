@@ -94,7 +94,7 @@ header a:hover { opacity: 0.6; }
 
 @media only screen and (max-width: 1024px){
 
-h1, h2 { font-kerning: none; }
+h1, h2 { font-kerning: none; font-weight: normal; }
 
 .container { padding: 0px 24px; }
 
