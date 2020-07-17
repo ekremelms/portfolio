@@ -49,7 +49,7 @@ h2 { font-family: hd; font-style: normal; font-weight: bold; font-size: 24px; li
 
 .grid { width: 100%; display: grid; grid-template-columns: repeat(2, 1fr); grid-column-gap: 40px; grid-row-gap: 80px; }
 
-.grid-image { width: 100%; height: auto; background: #EDF2F5; border-radius: 8px; }
+.grid-image { width: 100%; height: auto; background: #EDF2F5; border-radius: 4px; }
 
 .grid-image img { max-width: 100%; vertical-align: top; }
 
@@ -69,9 +69,9 @@ header a:hover { opacity: 0.6; }
 
 .screens p { font-size: 12px; line-height: 22px; margin-top: 8px; color: #98A0A8; }
 
-.screens img { border-radius: 8px; }
+.screens img { border-radius: 4px; }
 
-.screen-single, .screen-double { margin-top: 80px; display: block; }
+.screen-single, .screen-double { margin-top: 80px; display: block; height: auto; }
 
 .screen-single img { max-width: 100%; }
 
