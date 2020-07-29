@@ -85,6 +85,8 @@ header a:hover { opacity: 0.6; }
 
 .screen-double div:nth-child(2) { margin-left: 40px; }
 
+.text-link { text-decoration: underline; color: #0F253C; }
+
 
 
 
