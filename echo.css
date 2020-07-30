@@ -87,6 +87,12 @@ header a:hover { opacity: 0.6; }
 
 .text-link { text-decoration: underline; color: #0F253C; }
 
+.case-footer { margin-bottom: 240px; }
+
+.case-footer a { width: 100%; background: #fff; text-align: center; font-family: 'hd'; font-size: 24px; color: #0F253C; padding: 40px 0px; border:1px solid #DEE2E6; border-radius: 8px; display: block; transition: color 0.2 ease-in-out; }
+
+.case-footer a:hover { background: #0F253C; opacity: 1; color: #fff; transition: color 0.2 ease-in-out;  }
+
 
 
 
